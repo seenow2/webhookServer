@@ -1,6 +1,6 @@
 # webhookServer
 # A simple demo by django to recieve alerts from promethues and show them in web.
-
+# To use it ,you should configure the url in your alertmanager.yml and apply it , then 
 $ usage: docker run -it -p 8000:8000 seenow888/django-webhook:seenow /bin/bash 
 # After docker is run, attach it 
 $ cd /srv/webhk 
